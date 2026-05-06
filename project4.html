@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="project4.css">
+    <title>Expense Tracker</title>
+</head>
+<body>
+    <h1>Welcome to Expense Tracker Web App</h1>
+    <div class="container">
+        <div class="Fill">
+         <input type="text" id="title" placeholder="Enter a title name">
+         <input type="number" id="amount" placeholder="Enter an amount">
+         <input type="text" id="isReccuring" placeholder="does this occur repeatedly?">
+         <input type="text" id="category" placeholder="Enter a category">
+         <input type="date" id="date"placeholder="Enter a date">
+         <p id="message"></p>
+        </div>
+        <div class="buttons">
+         <button id="addExpense">Add Expense</button>
+        <button id="displayExpenses">Display Expenses</button>
+        <input type="text" id="search" placeholder="Search expenses...">
+        <p id="searchInfo"></p>
+        <div id="expenseList"></div>
+        </div> 
+       
+    </div>
+    <script src="expense.js"></script>
+    <script src="ExpenseManager.js"></script>
+    <script src="project4.js"></script>
+</body>
+</html>
